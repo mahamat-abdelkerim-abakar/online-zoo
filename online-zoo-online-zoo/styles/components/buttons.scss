@@ -1,0 +1,54 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  min-width: 298px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: $color-white;
+  padding: 16px;
+  background: $color-orange;
+  transition: all 1s ease;
+  &:hover {
+    background: linear-gradient(113.96deg, #e47209 1.49%, #e47209 101.44%);
+  }
+  &:active {
+    background: $color-green;
+  }
+  &:disabled {
+    background: $color-gray;
+  }
+  &.button--primary {
+    border-radius: 25px;
+  }
+  &.button--secondary {
+    border-radius: 5px;
+  }
+}
+
+.button-ellipse {
+  min-width: 62px;
+  min-height: 62px;
+  text-align: center;
+  color: $color-white;
+  background: $color-orange;
+  border-radius: 31px;
+  border: none;
+  cursor: pointer;
+  transition: all 1s ease;
+  &:hover {
+    background: linear-gradient(113.96deg, #e47209 1.49%, #e47209 101.44%);
+  }
+  &:active {
+    background: $color-green;
+  }
+  &:disabled {
+    background: $color-gray;
+  }
+}

@@ -1,0 +1,10 @@
+.pets-section {
+  background: url("../../assets/images/flower_foto2.png") no-repeat bottom left,
+    url("../../assets/images/flower_foto3.png") no-repeat bottom right;
+  & .carousel {
+    margin-bottom: 80px;
+  }
+  & .button {
+    margin-bottom: 100px;
+  }
+}
