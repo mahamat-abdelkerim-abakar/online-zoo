@@ -1,269 +1,569 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online-zoo</title>
-    <link rel="shortcut icon" href="../../assets/icons/panda_icon.svg" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../assets/styles/normalize.css">
-    <link rel="stylesheet" href="../main/style.css">
-    <link rel="stylesheet" href="../donate/style.css">
-</head>
-
-<body>
-    <div class="shadow"></div>
-    <header class="header">
-        <div class="wrapper header__wrapper">
-            <h1 class="visually-hidden">PetStory Online</h1>
-            <div class="header__logo logo__container">
-                <a class="logo" href="../main/index.html">
-                    <p class="logo__text">PetStory online</p>
-                    <img class="logo__img" src="../../assets/icons/logo_bamboo.svg" alt="">
-                </a>
-            </div>
-            <nav class="navigation header__navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__item"><a class="navigation__link" href="../main/index.html">About</a>
-                    </li>
-                    <li class="navigation__item"><a class="navigation__link" href="#">Map</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#">Zoos</a></li>
-                    <li class="navigation__item"><a class="navigation__link navigation__link_active"
-                            href="#">Donate</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#">Contact us</a></li>
-                </ul>
-                <div class="navigation__link_end">
-                    <a class="navigation__link"
-                        href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks"
-                        target="_blank">Designed
-                        by ©</a>
-                </div>
-            </nav>
-            <div class="hamburger header__hamburger hamburger__open">
-                <span class="hamburger__line"></span>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-div">
+        <div class="logo" id="logo-anchor">
+          <h1 class="logo-inner">PetStory online</h1>
+          <img
+            class="bamboo-stick"
+            src="../../assets/icons/bamboo.png"
+            alt=""
+          />
         </div>
-        <div class="wrapper burger__menu">
-            <div class="header__logo logo__container">
-                <a class="logo" href="../main/index.html">
-                    <p class="logo__text">PetStory online</p>
-                    <img class="logo__img" src="../../assets/icons/logo_bamboo_burger.svg" alt="">
-                </a>
-            </div>
-            <nav class="navigation header__navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__item"><a class="navigation__link" href="../main/index.html">About</a>
-                    </li>
-                    <li class="navigation__item"><a class="navigation__link" href="#">Map</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#">Zoos</a></li>
-                    <li class="navigation__item"><a class="navigation__link  navigation__link_active" href="#">Donate</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#">Contact us</a></li>
-                </ul>
-                <div class="navigation__link_end">
-                    <a class="navigation__link"
-                        href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks"
-                        target="_blank">Designed
-                        by ©</a>
-                </div>
-            </nav>
-            <div class="hamburger header__hamburger hamburger__close">
-                <img src="../../assets/images/x_icon_popup.png" alt="close menu">
-            </div>
-        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../main/index.html">About</a></li>
+          <li><a href="">Map</a></li>
+          <li><a href="">Zoos</a></li>
+          <li><a href="" class="highlighted">Donate</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+      </nav>
+      <div class="single">
+        <a
+          class="single-p"
+          href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks"
+          >Designed by <span>&copy</span></a
+        >
+      </div>
     </header>
     <main>
-        <section class="top">
-            <div class="wrapper">
+      <section>
+        <div class="panda-bg"></div>
+      </section>
+      <section>
+        <div class="friend">
+          <h2 id="special-heading">
+            THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!
+          </h2>
+          <p class="even">
+            Even though the Zoo has been able to reopen, we are at a greatly
+            reduced capacity with educational programs and public and private
+            events cancelled or postponed for additional months. We need you now
+            more than ever to help ensure that we overcome these challenges. We
+            have been actively raising funds in the community, and we are
+            grateful for the generosity. But much more support is still needed,
+            and we need your help! Please consider a gift today – no matter what
+            size – to help us sustain our mission.
+          </p>
+          <h3 class="donate-info">Donation Information</h3>
+          <div class="friends-inner">
+            <h2 class="pick">Pick and feed a friend</h2>
+            <h4 class="know">
+              We know the animals bring you joy, and in these extraordinary
+              times, we’re glad.
+            </h4>
+            <div class="panda-meal">
+              <div class="panda-diet">
+                <h6>4</h6>
+                <p>Panda diet for the day.</p>
+              </div>
+              <div class="multi-container">
+                <img class="multi" src="../../assets/icons/x_icon.png" alt="" />
+              </div>
+              <div class="panda-img-container">
+                <img
+                  class="panda-img"
+                  src="../../assets/images/panda_widget1.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
             </div>
-        </section>
-        <section class="pick-feed">
-            <div class="wrapper wrapper__donate">
-                <h3 class="pick-feed__title">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
-                <p class="pick-feed__text">Even though the Zoo has been able to reopen, we are at a greatly reduced
-                    capacity with educational
-                    programs and public and private events cancelled or postponed for additional months. We need you now
-                    more than ever to help ensure that we overcome these challenges. We have been actively raising funds
-                    in the community, and we are grateful for the generosity. But much more support is still needed, and
-                    we need your help! Please consider a gift today – no matter what size – to help us sustain our
-                    mission.</p>
-                <p class="pick-feed__caption">Donation Information</p>
-
-                <div class="donate__wrapper">
-                    <p class="donate__title">Pick and feed a friend</p>
-                    <p class="donate__subtitle"> We know the animals bring you joy, and in these extraordinary
-                        times, we’re glad.</p>
-                    <div class="donate-diet">
-                        <div class="donate-diet__day">
-                            <p class="donate-diet__number">4</p>
-                            <p class="donate-diet__text">Panda diet for the day.</p>
-                        </div>
-                        <div class="donate-diet__icon">
-                        </div>
-                        <div class="donate-diet__image">
-                            <img src="../../assets/images/animals-widget.png" alt="Panda">
-                        </div>
+            <div class="money-bar">
+              <p class="money-bar-p">Amount</p>
+              <div class="line-container">
+                <!-- <div class="line-container-inner"> -->
+                <p class="line"></p>
+                <!-- </div> -->
+                <div class="button-prop-container">
+                  <div class="button-prop">
+                    <input
+                      type="radio"
+                      id="option"
+                      name="sameas"
+                      value="option"
+                    />
+                    <div id="outer-circle">
+                      <div id="inner-circle"></div>
+                      <div id="inner-circle2"></div>
+                      <div id="inner-circle3"></div>
+                      <div
+                        style="
+                          visibility: visible;
+                          position: absolute;
+                          top: 38px;
+                          left: -20px;
+                          width: 72px;
+                          height: 36px;
+                          font-family: inherit;
+                          display: flex;
+                        "
+                      >
+                        <span
+                          style="
+                            font-family: 'Trebuchet-Bold';
+                            font-size: 20px;
+                            margin: 5px 0 0 0;
+                          "
+                          >$</span
+                        >
+                        <p
+                          style="
+                            width: 60px;
+                            height: 36px;
+                            font-family: inherit;
+                            font-size: 26px;
+                          "
+                        >
+                          5000
+                        </p>
+                      </div>
                     </div>
-
-                    <form class="donate__form">
-                        <div class="progress-bar">
-                            <p class="progress-bar__title">Amount</p>
-                            <div class="progress-bar__background">
-                                <div class="progress-bar__line"></div>
-                            </div>
-                            <div class="progress-bar__scale">
-                                <div class="progress-bar__container">
-                                    <input class="progress-bar__input" type="radio" id="amount5000" name="amount"
-                                        value="5000">
-                                    <label class="progress-bar__label" for="amount5000">$5000</label>
-                                </div>
-                                <div class="progress-bar__container">
-                                    <input class="progress-bar__input" type="radio" id="amount2000" name="amount"
-                                        value="2000">
-                                    <label class="progress-bar__label" for="amount2000">$2000</label>
-                                </div>
-                                <div class="progress-bar__container">
-                                    <input class="progress-bar__input" type="radio" id="amount1000" name="amount"
-                                        value="1000">
-                                    <label class="progress-bar__label" for="amount1000">$1000</label>
-                                </div>
-                                <div class="progress-bar__container">
-                                    <input class="progress-bar__input" type="radio" id="amount500" name="amount"
-                                        value="500">
-                                    <label class="progress-bar__label" for="amount500">$500</label>
-                                </div>
-                                <div class="progress-bar__container">
-                                    <input class="progress-bar__input" type="radio" id="amount250" name="amount"
-                                        value="250">
-                                    <label class="progress-bar__label" for="amount250">$250</label>
-                                </div>
-                                <div class="progress-bar__container">
-                                    <input class="progress-bar__input" type="radio" id="amount100" name="amount"
-                                        value="100" checked>
-                                    <label class="progress-bar__label" for="amount100">$100</label>
-                                </div>
-                                <div class="progress-bar__container">
-                                    <input class="progress-bar__input" type="radio" id="amount50" name="amount"
-                                        value="50">
-                                    <label class="progress-bar__label" for="amount50">$50</label>
-                                </div>
-                                <div class="progress-bar__container">
-                                    <input class="progress-bar__input" type="radio" id="amount25" name="amount"
-                                        value="25">
-                                    <label class="progress-bar__label" for="amount25">$25</label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <label class="amount donate__amount">
-                            <input class="donate__input"  type="number" id="another-amount" placeholder="Another amount"
-                            min="0" max="9999" title="Значение должно быть меньше или равно 9999">
-                        </label>
-
-                        <div class="options donate__options">
-                            <div class="options__item">
-                                <input class="options__input" type="radio" id="monthly" name="spacing">
-                                <label class="options__label" for="monthly">Monthly</label>
-                            </div>
-                            <div class="options__item">
-                                <input class="options__input" type="radio" id="once" name="spacing" checked>
-                                <label class="options__label" for="once">Once</label>
-                            </div>
-                        </div>
-
-                        <div class="pick-feed__button">
-                            <button class="button button_bordered"><a class="button__link" href="../donate/index.html"
-                                    target="_blank">Feed a friend now</a></button>
-                        </div>
-                    </form>
-                    <p class="pick-feed__social">Share with your friends on social networks </p>
+                  </div>
+                  <div class="button-prop">
+                    <input
+                      type="radio"
+                      id="option"
+                      name="sameas"
+                      value="option"
+                    />
+                    <div id="outer-circle">
+                      <div id="inner-circle"></div>
+                      <div id="inner-circle2"></div>
+                      <div id="inner-circle3"></div>
+                      <div
+                        style="
+                          visibility: visible;
+                          position: absolute;
+                          top: 38px;
+                          left: -20px;
+                          width: 72px;
+                          height: 36px;
+                          font-family: inherit;
+                          display: flex;
+                        "
+                      >
+                        <span
+                          style="
+                            font-family: 'Trebuchet-Bold';
+                            font-size: 20px;
+                            margin: 5px 0 0 0;
+                          "
+                          >$</span
+                        >
+                        <p
+                          style="
+                            width: 60px;
+                            height: 36px;
+                            font-family: inherit;
+                            font-size: 26px;
+                          "
+                        >
+                          2000
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-prop">
+                    <input
+                      type="radio"
+                      id="option"
+                      name="sameas"
+                      value="option"
+                    />
+                    <div id="outer-circle">
+                      <div id="inner-circle"></div>
+                      <div id="inner-circle2"></div>
+                      <div id="inner-circle3"></div>
+                      <div
+                        style="
+                          visibility: visible;
+                          position: absolute;
+                          top: 38px;
+                          left: -20px;
+                          width: 72px;
+                          height: 36px;
+                          font-family: inherit;
+                          display: flex;
+                        "
+                      >
+                        <span
+                          style="
+                            font-family: 'Trebuchet-Bold';
+                            font-size: 20px;
+                            margin: 5px 0 0 0;
+                          "
+                          >$</span
+                        >
+                        <p
+                          style="
+                            width: 60px;
+                            height: 36px;
+                            font-family: inherit;
+                            font-size: 26px;
+                          "
+                        >
+                          1000
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-prop">
+                    <input
+                      type="radio"
+                      id="option"
+                      name="sameas"
+                      value="option"
+                    />
+                    <div id="outer-circle">
+                      <div id="inner-circle"></div>
+                      <div id="inner-circle2"></div>
+                      <div id="inner-circle3"></div>
+                      <div
+                        style="
+                          visibility: visible;
+                          position: absolute;
+                          top: 38px;
+                          left: -20px;
+                          width: 72px;
+                          height: 36px;
+                          font-family: inherit;
+                          display: flex;
+                        "
+                      >
+                        <span
+                          style="
+                            font-family: 'Trebuchet-Bold';
+                            font-size: 20px;
+                            margin: 5px 0 0 0;
+                          "
+                          >$</span
+                        >
+                        <p
+                          style="
+                            width: 60px;
+                            height: 36px;
+                            font-family: inherit;
+                            font-size: 26px;
+                          "
+                        >
+                          500
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-prop">
+                    <input
+                      type="radio"
+                      id="option"
+                      name="sameas"
+                      value="option"
+                    />
+                    <div id="outer-circle">
+                      <div id="inner-circle"></div>
+                      <div id="inner-circle2"></div>
+                      <div id="inner-circle3"></div>
+                      <div
+                        style="
+                          visibility: visible;
+                          position: absolute;
+                          top: 38px;
+                          left: -20px;
+                          width: 72px;
+                          height: 36px;
+                          font-family: inherit;
+                          display: flex;
+                        "
+                      >
+                        <span
+                          style="
+                            font-family: 'Trebuchet-Bold';
+                            font-size: 20px;
+                            margin: 5px 0 0 0;
+                          "
+                          >$</span
+                        >
+                        <p
+                          style="
+                            width: 60px;
+                            height: 36px;
+                            font-family: inherit;
+                            font-size: 26px;
+                          "
+                        >
+                          250
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-prop">
+                    <input
+                      type="radio"
+                      id="option"
+                      name="sameas"
+                      value="option"
+                    />
+                    <div id="outer-circle">
+                      <div id="inner-circle"></div>
+                      <div id="inner-circle2"></div>
+                      <div id="inner-circle3"></div>
+                      <div
+                        style="
+                          visibility: visible;
+                          position: absolute;
+                          top: 38px;
+                          left: -20px;
+                          width: 72px;
+                          height: 36px;
+                          font-family: inherit;
+                          display: flex;
+                        "
+                      >
+                        <span
+                          style="
+                            font-family: 'Trebuchet-Bold';
+                            font-size: 20px;
+                            margin: 5px 0 0 0;
+                          "
+                          >$</span
+                        >
+                        <p
+                          style="
+                            width: 60px;
+                            height: 36px;
+                            font-family: inherit;
+                            font-size: 26px;
+                          "
+                        >
+                          100
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-prop">
+                    <input
+                      type="radio"
+                      id="option"
+                      name="sameas"
+                      value="option"
+                    />
+                    <div id="outer-circle">
+                      <div id="inner-circle"></div>
+                      <div id="inner-circle2"></div>
+                      <div id="inner-circle3"></div>
+                      <div
+                        style="
+                          visibility: visible;
+                          position: absolute;
+                          top: 38px;
+                          left: -20px;
+                          width: 72px;
+                          height: 36px;
+                          font-family: inherit;
+                          display: flex;
+                        "
+                      >
+                        <span
+                          style="
+                            font-family: 'Trebuchet-Bold';
+                            font-size: 20px;
+                            margin: 5px 0 0 0;
+                          "
+                          >$</span
+                        >
+                        <p
+                          style="
+                            width: 60px;
+                            height: 36px;
+                            font-family: inherit;
+                            font-size: 26px;
+                          "
+                        >
+                          50
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-prop">
+                    <input
+                      type="radio"
+                      id="option"
+                      name="sameas"
+                      value="option"
+                    />
+                    <div id="outer-circle">
+                      <div id="inner-circle"></div>
+                      <div id="inner-circle2"></div>
+                      <div id="inner-circle3"></div>
+                      <div
+                        style="
+                          visibility: visible;
+                          position: absolute;
+                          top: 38px;
+                          left: -20px;
+                          width: 72px;
+                          height: 36px;
+                          font-family: inherit;
+                          display: flex;
+                        "
+                      >
+                        <span
+                          style="
+                            font-family: 'Trebuchet-Bold';
+                            font-size: 20px;
+                            margin: 5px 0 0 0;
+                          "
+                          >$</span
+                        >
+                        <p
+                          style="
+                            width: 60px;
+                            height: 36px;
+                            font-family: inherit;
+                            font-size: 26px;
+                          "
+                        >
+                          25
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="wrapper">
-            <div class="footer__header">
-                <div class="footer__logo logo__container logo__container_footer">
-                    <a class="logo" href="../main/index.html">
-                        <p class="logo__text logo__text_footer">PetStory online</p>
-                        <img class="logo__img logo__img_footer" src="../../assets/icons/logo_bamboo.svg" alt="">
-                    </a>
+            <div class="money-input">
+              <div class="text-container">
+                <input type="number" placeholder="Another Amount" />
+                <span class="clearBtn">$</span>
+              </div>
+            </div>
+            <div class="line-container2">
+              <div class="button-prop-container2">
+                <div class="button-prop2-outer">
+                  <div class="button-prop2">
+                    <input
+                      type="radio"
+                      id="option"
+                      name="sameas2"
+                      value="option"
+                    />
+                    <div id="outer-circle2">
+                      <div id="inner-circle32"></div>
+                    </div>
+                  </div>
+                  <p class="pay-p">Monthly</p>
                 </div>
-                <form class="subscribe" id="subscribe">
-                    <p class="subscribe__title">Subscribe to our news</p>
-                    <input class="subscribe__input" type="email" placeholder="Enter your email" required>
-                    <button class="subscribe__button" type="submit">Submit</button>
-                </form>
-            </div>
-
-            <div class="footer__button">
-                <button class="button"><a class="button__link" href="../donate/index.html">donate for
-                        volunteers</a></button>
-            </div>
-
-            <div class="footer__nav-wrap">
-                <ul class="social footer__social">
-                    <li class="social__item">
-                        <a class="social__link" href="https://ru-ru.facebook.com/">
-                            <span class="social__icon">
-                                <span class="icon icon-facebook"></span>
-                            </span>
-                            <span class="social__text">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a class="social__link" href="https://twitter.com/">
-                            <span class="social__icon">
-                                <span class="icon icon-twitter"></span>
-                            </span>
-                            <span class="social__text">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a class="social__link" href="https://www.instagram.com/">
-                            <span class="social__icon">
-                                <span class="icon icon-instagram"></span>
-                            </span>
-                            <span class="social__text">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a class="social__link" href="https://www.youtube.com/">
-                            <span class="social__icon">
-                                <span class="icon icon-YouTube"></span>
-                            </span>
-                            <span class="social__text">YouTube</span>
-                        </a>
-                    </li>
-                </ul>
-                <nav class="navigation footer__navigation footer__navigation_donate">
-                    <ul class="navigation__list">
-                        <li class="navigation__item navigation__item_footer"><a class="navigation__link"
-                                href="../main/index.html">About</a>
-                        </li>
-                        <li class="navigation__item navigation__item_footer"><a class="navigation__link" href="#"
-                                onclick="return false;">Map</a></li>
-                        <li class="navigation__item navigation__item_footer"><a class="navigation__link" href="#"
-                                onclick="return false;">Zoos</a></li>
-                        <li class="navigation__item navigation__item_footer"><a class="navigation__link" href="#"
-                                onclick="return false;">Contact us</a></li>
-                    </ul>
-                </nav>
-                <div class="copyrigh">
-                    <p class="copyrigh__text"><a href="https://github.com/nataliyasamkevich" target="_blank">Designed by
-                            Alisa Samborskaya</a></p>
-                    <p class="copyrigh__text"><a href="https://rs.school/" target="_blank">©RSSchool & ©Yem Digital
-                            2021</a></p>
+                <div class="button-prop2-outer">
+                  <div class="button-prop2">
+                    <input
+                      type="radio"
+                      id="option"
+                      name="sameas2"
+                      value="option"
+                      checked
+                    />
+                    <div id="outer-circle2">
+                      <div id="inner-circle32"></div>
+                    </div>
+                  </div>
+                  <p class="pay-p">Once</p>
                 </div>
+              </div>
             </div>
+            <div class="feed-btn-div">
+              <button class="feed-btn">feed a friend now</button>
+            </div>
+            <p class="share">Share with your friends on social networks</p>
+          </div>
         </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-main-container">
+        <div class="footer-container1">
+          <div class="footer-logo">
+            <a href="./index.html">
+              <img src="../../assets/icons/logo_footer.png" alt="" />
+            </a>
+          </div>
+          <div class="footer-btn">
+            <button id="donate-btn" class="watch-btn feed-back-btn">
+              Donate for volunteers
+            </button>
+          </div>
+          <div class="social-media-outer">
+            <div class="social-media">
+              <div class="social-media-item">
+                <button class="tiny-ellipse">
+                  <a class="social-media-anchor" href="">
+                    <img src="../../assets/icons/facebook.png" alt=""
+                  /></a>
+                </button>
+                <a class="social-media-anchor-add" href="">Facebook</a>
+              </div>
+              <div class="social-media-item">
+                <button class="tiny-ellipse">
+                  <a class="social-media-anchor" href="">
+                    <img src="../../assets/icons/tweeter.png" alt=""
+                  /></a></button
+                ><a class="social-media-anchor-add" href="">Twitter</a>
+              </div>
+              <div class="social-media-item">
+                <button class="tiny-ellipse">
+                  <a class="social-media-anchor" href=""
+                    ><img src="../../assets/icons/instagram.png" alt=""
+                  /></a></button
+                ><a class="social-media-anchor-add" href="">Instagram</a>
+              </div>
+              <div class="social-media-item">
+                <button class="tiny-ellipse">
+                  <a class="social-media-anchor" href=""
+                    ><img src="../../assets/icons/youtube.png" alt=""
+                  /></a></button
+                ><a class="social-media-anchor-add" href="">YouTube</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-container2">
+          <nav>
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Map</a></li>
+              <li><a href="">Zoos</a></li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-container3">
+          <div class="search-bar">
+            <h4>Subscribe to our news</h4>
+            <input type="email" placeholder="Enter your email" />
+            <button>Submit</button>
+          </div>
+          <div class="author">
+            <a
+              href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks"
+              >Designed by Alisa Samborskaya</a
+            >
+            <a href="https://rs.school/" class="copyR"
+              >©RSSchool & ©Yem Digital 2021</a
+            >
+            <!-- <p class="copyR">©RSSchool & ©Yem Digital 2021</p> -->
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src="../../pages/donate/script.js"></script>
-</body>
-
+    <script src="./script.js"></script>
+  </body>
 </html>
