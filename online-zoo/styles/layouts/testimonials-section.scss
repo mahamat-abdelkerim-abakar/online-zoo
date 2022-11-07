@@ -1,0 +1,121 @@
+.testimonials-section {
+  // padding-top: 140px;
+  background: url("../../assets/images/leav_foto.png") no-repeat bottom -135px right;
+  padding: 140px 0 180px 0;
+  & h2 {
+    @include font_36;
+    color: $color-black-blue;
+    margin-bottom: 46px;
+  }
+  & .testimonials-cards {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  & .button-container {
+    justify-content: flex-start;
+    // margin-bottom: 174px;
+  }
+}
+.testimonials-cards-container {
+  width: 100%;
+}
+.testimonials-card {
+  width: 268px;
+  height: 391px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+  background: $color-gray-light;
+  background: linear-gradient($color-gray-light, $color-gray-light) padding-box, $color-pink-gradient border-box;
+  border: solid 2px transparent;
+  padding: 15px 15px 15px 15px;
+}
+// user fhoto
+.user-photo {
+  width: 37px;
+  height: 37px;
+}
+.one .user-photo {
+  background-image: url("../../assets/svg/user_icon.svg");
+}
+.two .user-photo {
+  background-image: url("../../assets/images/user_icon_2.png");
+}
+.three .user-photo {
+  background-image: url("../../assets/images/user_icon_3.png");
+}
+.four .user-photo {
+  background-image: url("../../assets/images/user_icon_4.png");
+}
+// user-information
+.user-information {
+  margin-left: 10px;
+  .user-name {
+    @include font_16;
+    line-height: 120%;
+  }
+  .local-date {
+    display: flex;
+    align-items: center;
+  }
+  .local,
+  .date {
+    @include font_15;
+    color: $color-gray-smoky-light;
+  }
+  .point {
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: $color-gray-smoky-light;
+    margin: 0 8px;
+  }
+}
+// text-of-testimonial
+.testimonials-card__text {
+  height: 309px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+  @include font_15;
+  color: $color-gray;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+// line-scroll
+.line-scroll {
+  margin: 21px 0 15px;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 600px;
+  height: 8px;
+  background: #f5f7f6;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border: solid 0.5px transparent;
+  background: linear-gradient($color-gray-light, $color-gray-light) padding-box, $color-pink-gradient border-box;
+  border-radius: 5px;
+  &:hover {
+    opacity: 1;
+  }
+}
+.testimonials-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & ::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 115px;
+    height: 6px;
+    border-radius: 5px;
+    background: $color-orange-light;
+    cursor: pointer;
+  }
+}
