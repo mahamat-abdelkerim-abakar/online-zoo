@@ -1,0 +1,20 @@
+.carousel {
+  position: relative;
+  & .button-ellipse--prev {
+    position: absolute;
+    left: -82px;
+    top: 405px;
+  }
+  & .button-ellipse--next {
+    position: absolute;
+    right: -82px;
+    top: 405px;
+  }
+}
+.carousel__gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 366px);
+  grid-template-rows: repeat(2, 426px);
+  grid-column-gap: 29px;
+  grid-row-gap: 20px;
+}
