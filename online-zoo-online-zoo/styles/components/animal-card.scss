@@ -1,0 +1,54 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  max-width: 366px;
+  min-height: 426px;
+  border-radius: 5px;
+  border: 1px solid orange;
+  overflow: hidden;
+  &:hover {
+    cursor: pointer;
+    & .card__img img {
+      opacity: 0.7;
+      transform: scale(1.1);
+    }
+    & .card__info-wrapper {
+      opacity: 1;
+    }
+    .card__info {
+      transform: translate(0, -60px) scale(1.1);
+      color: $color-white;
+      transition: transform 0.5s, color 0.5s;
+    }
+  }
+}
+.card__img {
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden; /* Скрываем всё за контуром */
+  background: #000; /* У блока, оборачивающего картинку при наведении будет просвечивать черный фон */
+  & img {
+    max-width: 100%;
+    width: 366px;
+    height: 366px;
+    opacity: 1;
+    transition: opacity 0.2s linear, transform 0.2s linear; /* Плавное изменение прозрачности и увеличения */
+    display: block; /* Убираем небольшой отступ снизу */
+  }
+}
+.card__info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px 12px 8px 16px;
+}
+.card__info {
+  @include font_15;
+  transition: transform 0.1s, color 0.1s;
+  & h3 {
+    @include font_16_bold;
+    text-transform: uppercase;
+    text-align: start;
+  }
+}

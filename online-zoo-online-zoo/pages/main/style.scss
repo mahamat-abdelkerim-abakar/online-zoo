@@ -1,0 +1,26 @@
+// base
+@import "../../styles/base/normalaize.scss";
+@import "../../styles/base/fonts.scss";
+@import "../../styles/base/base.scss";
+
+// helpers
+@import "../../styles/helpers/constants.scss";
+@import "../../styles/helpers/mixins.scss";
+
+// components
+@import "../../styles/components/menu.scss";
+@import "../../styles/components/logo.scss";
+@import "../../styles/components/buttons.scss";
+@import "../../styles/components/animal-card.scss";
+@import "../../styles/components/carousel.scss";
+@import "../../styles/components/subscribe-form.scss";
+@import "../../styles/components/socials.scss";
+
+// sections
+@import "../../styles/layouts/header.scss";
+@import "../../styles/layouts/favorite-animal-section.scss";
+@import "../../styles/layouts/backstage-section.scss";
+@import "../../styles/layouts/pets-section.scss";
+@import "../../styles/layouts/pick-feed-section_mane-page.scss";
+@import "../../styles/layouts/testimonials-section.scss";
+@import "../../styles/layouts/footer.scss";

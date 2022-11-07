@@ -1,0 +1,111 @@
+.pick-feed-section {
+  background: $gradient-feed-friend;
+  padding: 70px 0px 100px 0px;
+}
+
+.pick-feed-section__content {
+  border-radius: 20px;
+  background: rgba(253, 253, 255, 0.52);
+  backdrop-filter: blur(2px);
+  padding: 40px 40px 60px 40px;
+  color: $color-black-blue;
+  & .pick-feed-section__title {
+    margin-bottom: 32px;
+  }
+  & .pick-feed-section__font1,
+  & .pick-feed-section__font2,
+  & .pick-feed-section__font3 {
+    padding-left: 60px;
+  }
+  & .pick-feed-section__font1 {
+    margin-bottom: 40px;
+  }
+  & .pick-feed-section__font2 {
+    margin-bottom: 10px;
+  }
+  & .pick-feed-section__font3 {
+    margin-bottom: 60px;
+  }
+  & .pick-feed-section__caption {
+    margin-bottom: 40px;
+  }
+  & .cards-instruction {
+    margin: 0 0 62px;
+  }
+}
+.pick-feed-section__title {
+  @include font_48;
+  color: $color-orange-light;
+}
+.pick-feed-section__font1 {
+  @include font_24;
+}
+.pick-feed-section__font2 {
+  @include font_16_bold;
+  line-height: 130%;
+}
+.pick-feed-section__font3 {
+  @include font_16;
+  & a {
+    color: $color-black-blue;
+    border-bottom: 1px solid $color-orange-light;
+    &:hover {
+      color: $color-orange-light;
+    }
+  }
+}
+.pick-feed-section__caption {
+  @include font_36;
+}
+
+.cards-instruction {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 130px;
+}
+.instruction {
+  position: relative;
+  width: 168px;
+}
+.instruction-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 168px;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: $color-orange-light;
+  background-color: $color-white;
+}
+.icon-pay {
+  background-image: url("../../assets/svg/pay.svg");
+  width: 108px;
+  height: 60px;
+}
+.icon-zoo {
+  background-image: url("../../assets/svg/zoo.svg");
+  width: 86px;
+  height: 95px;
+}
+.icon-monkey {
+  background-image: url("../../assets/svg/monkey.svg");
+  width: 126px;
+  height: 73px;
+}
+.instruction__description {
+  line-height: 140%;
+  padding-top: 30px;
+}
+.instruction:not(:last-child):after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  background: url("../../assets/svg/vector.svg");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 35.08px;
+  right: -100px;
+  top: 60px;
+}
